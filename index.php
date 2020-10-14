@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hytta Outdoor</title>
+    <!-- Reset css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+    <!-- Style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="header">
+        <div class="header__logo">
+            <a href="index.html">
+                <img src="img/logoprova.png" alt="">
+            </a>        
+        </div>
+        <ul class="header__menu">
+            <li><a href="attivita.html">Attività</a></li>
+            <li><a href="noleggio.html">Noleggio</a></li>
+            <li><a href="chiSiamo.html">Chi siamo</a></li>
+            <li class="only-mobile"><a href="partner.html">Diventa Partner</a></li>
+            <li class="only-mobile"><a href="" class="orange">Accedi</a></li>
+        </ul>
+        <div class="header__cta">
+            <a href="" class="button">Accedi</a>
+            <a href="partner.html">Diventa Partner</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="hero__content">
+            <h1>Trova la tua prossima attività outdoor</h1>
+            <div class="form">
+
+                <div class="input-container">
+                    <div class="left">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="right">
+                        <input type="text" class="search-field " placeholder="Località">
+                    </div>                   
+                </div>
+
+                <div class="input-container">
+                    <div class="left">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="right">
+                        <input type="text" class="search-field " placeholder="Data">
+                    </div>                   
+                </div>
+
+                <div class="input-container">
+                    <div class="left">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <div class="right">
+                        <input type="text" class="search-field " placeholder="Attività">
+                    </div>                   
+                </div>
+
+                
+
+                <button class="search-btn" type="button">Cerca</button>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <main>        
+        <h2>I servizi</h2>
+        <div class="main__service">
+            <div class="main__service__items">
+                <img src="img/service1.png" width="70px" height="70px" alt="computer icon">
+                <p>Prenotazione Online di attività outdoor.</p>
+            </div>
+            <div class="main__service__items">
+                <img src="img/service2.png" width="70px" height="70px" alt="rental icon">
+                <p>Noleggio attrezzatura sportiva
+                    da negozi o privati.</p>
+            </div>
+            <div class="main__service__items">
+                <img src="img/service3.png" width="70px" height="70px" alt="money icon">
+                <p>Possibilità di guadagno noleggiando la propria attrezzatura ad altri utenti del sito.</p>
+            </div>
+        </div>
+
+
+        <h2 id="carouselTitle">Qual è il tuo habitat?</h2>
+        <div class="carousel-container">
+            <div class="carousel-inner">
+                <div class="track">
+                    <div class="card-container-carousel">
+                        <div class="card-carousel">
+                            <div class="img-carousel img-1" alt="water sport picture">
+                                <p>Acqua</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container-carousel">
+                        <div class="card-carousel">
+                            <div class="img-carousel img-2" alt="bmx sport picture">
+                                <p>Terra</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container-carousel">
+                        <div class="card-carousel">
+                            <div class="img-carousel img-3" alt="zipline sport picture">
+                                <p>Aria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container-carousel">
+                        <div class="card-carousel">
+                            <div class="img-carousel img-4" alt="skii sport picture">
+                                <p>Neve</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container-carousel">
+                        <div class="card-carousel">
+                            <div class="img-carousel img-5" alt="skateboard sport picture">
+                                <p>Urban</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+    
+            <div class="nav-carousel">
+                <button class="prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+
+
+
+        <div class="main__carddiv">
+            <h2>Attività outdoor in evidenza</h2>
+            <div class="container">
+                <section class="cards">
+                    
+                        <article>
+                            <a href="singleActivity.html">
+                              <img src="img/card/horse1-card.jpg" alt="horse riding activity">
+                            </a>
+                            <div class="text">
+                                <a href="singleActivity.html">
+                                 <h4>Giornata a cavallo sui colli della Maremma</h4>
+                                </a>
+                                <p>Attività'</p>
+                                <p>Categoria: Equitazione</p>
+                                <p><i class="fas fa-map-marker-alt"></i><span>  Montieri, Grosseto</span></p>
+                                <p><i class="far fa-clock"></i><span>  Durata: 6 ore</span></p>
+                                <p>da<span class="orange"> 90€</span></p>
+                            </div>
+                        </article>
+                   
+    
+                    <article>
+                        <img src="img/card/rafting2-card.jpg" alt="rafting activity">
+                        <div class="text">
+                            <h4>Rafting Marathon sul fiume Noce in Trentino</h4>
+                            <p>Attività'</p>
+                            <p>Categoria: Rafting</p>
+                            <p><i class="fas fa-map-marker-alt"></i><span>  Ossana, Trento</span></p>
+                            <p><i class="far fa-clock"></i><span> 4 ore</span></p>
+                            <p>da<span class="orange"> 64€</span></p>
+                        </div>
+                    </article>
+    
+                    <article>
+                        <img src="img/card/surfclass1-card.jpg" alt="surfing course activity">
+                        <div class="text">
+                            <h4>Corso privato di surf al lido di Ostia</h4>
+                            <p>Attività'</p>
+                            <p>Categoria: Surf</p>
+                            <p><i class="fas fa-map-marker-alt"></i><span> Lido di Ostia</span></p>
+                            <p><i class="far fa-clock"></i><span> 2 ore</span></p>
+                            <p>da<span class="orange"> 30€</span></p>
+                        </div>
+                    </article>
+    
+                    <article>
+                        <img src="img/card/yoga1-card.jpg" alt="yoga course">
+                        <div class="text">
+                            <h4>Lezione privata Yoga e Meditazione a Canazei</h4>
+                            <p>ATTIVITA'</p>
+                            <p>Yoga e Meditazione</p>
+                            <p><i class="fas fa-map-marker-alt"></i><span> Canazei, Trento</span></p>
+                            <p><i class="far fa-clock"></i><span> 2 ore</span></p>
+                            <p>da<span class="orange"> 50€</span></p>
+                        </div>
+                    </article>
+                </section>
+            </div>  
+            
+            <a href="attivita.html"><button class="btn-secondary" type="button">Vedi altre</button></a>
+        </div>
+
+        <div class="main__carddiv">
+            <h2>Noleggio: attrezzatura in evidenza</h2>
+            <div class="container">
+                <section class="cards">
+                    <article>
+                        <img src="img/card/EBike1-card.jpg" alt="E-bike photo">
+                        <div class="text">
+                            <h4>JEEP E-bike</h4>
+                            <p>Noleggio</p>
+                            <p>Categoria: Biciclette</p>
+                            <p><i class="fas fa-map-marker-alt"></i><span> Luogo</span></p>
+                            <p>da<span class="orange"> 20€</span> (Orario)</p>
+                        </div>
+                    </article>
+    
+                    <article>
+                        <img src="img/card/skateRent1-card.jpg" alt="Skateboard photo">
+                        <div class="text">
+                            <h4>Longboard professionale</h4>
+                            <p>Noleggio</p>
+                            <p>Categoria: Tavole e skate</p>
+                            <p><i class="fas fa-map-marker-alt"></i><span> Luogo: Milano</span></p>
+                            <p>da<span class="orange"> 20€</span> (Giornaliero)</p>
+                        </div>
+                    </article>
+    
+                    <article>
+                        <img src="img/card/kayakRent1-card.jpg" alt="Kayak picture">
+                        <div class="text">
+                            <h4>Kayak aperto individuale</h4>
+                            <p>Noleggio</p>
+                            <p>Categoria'</p>
+                            <p><i class="fas fa-map-marker-alt"></i><span> Luogo</span></p>
+                            <p>da<span class="orange"> 15€ </span>(Orario)</p>
+                        </div>
+                    </article>
+    
+                    <article>
+                        <img src="img/card/bikeGravel1.jpg" alt="Gravel bike picture">
+                        <div class="text">
+                            <h4>Bici da Corsa</h4>
+                            <p>Noleggio</p>
+                            <p>Categoria: Biciclette</p>
+                            <p><i class="fas fa-map-marker-alt"></i><span> Luogo:</span> Firenze</p>
+                            <p>da<span class="orange"> 35€</span> (Giornaliero)</p>
+                        </div>
+                    </article>
+                </section>
+            </div>  
+            
+            <a href="noleggio.html">
+                <button class="btn-secondary" type="button">Vedi altre</button>
+            </a>
+            
+        </div>
+
+        <section class="registerBlock">
+            <div class="registerBlock__container">
+                <div class="registerBlock__container__item1">
+                    <div class="registerBlockText">
+                    <h3>Pubblica le tue attività</h3>
+                    <p>Pubblica le tue attività e trova nuovi fantastici clienti</p>
+                    <a href="partner.html">
+                        <button class="btn-secondary-black" type="button">Diventa partner</button>
+                    </a>  
+                    </div>
+                </div>
+                <div class="registerBlock__container__item2" alt="girl in a camping photo"></div>
+            </div>
+        </section>
+
+    <section class="galleryBlock">
+        <h2>Le Attività preferite dai nostri utenti</h2>
+        <div class="containerGallery">
+            <div class="containerGallery__item1" alt="canyoning activity">
+                <h5>Canyoning in Valsella</h5>
+                <div class="containerGallery__price">
+                    <p>da <span>50€</span></p>
+                </div>
+            </div>
+            <div class="containerGallery__item2" alt="man in a kayak">
+                <h5>Avventura in kajak in Valsella</h5>
+                <div class="containerGallery__price">
+                    <p>da <span>50€</span></p>
+                </div>
+            </div>
+            <div class="containerGallery__item3" alt="skateboard class">
+                <h5>Lezione di skate a Milano</h5>
+                <div class="containerGallery__price">
+                    <p>da <span>50€</span></p>
+                </div>
+            </div>
+            <div class="containerGallery__item4" alt="snowbike picture">
+                <h5>Corso di SnowBike in Trentino</h5>
+                <div class="containerGallery__price">
+                    <p>da <span>50€</span></p>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    
+    <section class="faq">
+        <h2>FAQ</h2>
+        <div class="accordion">
+
+            <div class="accordion-item">
+                <div class="accordion-item-header">
+                    <p>Come funziona Hytta?</p>
+                </div>
+                <div class="accordion-item-body">
+                    <div class="accordion-item-body-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nobis velit a consequatur quisquam labore?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-item-header">
+                    <p>Come faccio a registrarmi?</p>
+                </div>
+                <div class="accordion-item-body">
+                    <div class="accordion-item-body-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nobis velit a consequatur quisquam labore?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-item-header">
+                    <p>Posso noleggiare ad altri la mia atrezzatura anche se non sono un negozio?</p>
+                </div>
+                <div class="accordion-item-body">
+                    <div class="accordion-item-body-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nobis velit a consequatur quisquam labore?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-item-header">
+                    <p>Come faccio a registrarmi?</p>
+                </div>
+                <div class="accordion-item-body">
+                    <div class="accordion-item-body-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nobis velit a consequatur quisquam labore?</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <div class="footer__container">
+            <div class="footer__container__sect">
+                <p>Registrati per rimanere sempre aggiornato sulle nostre  attività</p>
+                <div class="footer__container__dx--form">
+                    <input type="text" class="search-small" placeholder="E-mail">
+                    <button class="search-btn-small" type="button">Registrati</button>
+                </div>
+            </div>
+
+            <div class="footer__container__sect dx">
+                <h5>Seguici sui social</h5>
+                <div class="menu_social">                    
+                    <a href="https://www.facebook.com/mohole/" title="facebook" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="https://www.instagram.com/scuolamohole/?hl=it"  title="instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>                        
+                    <a href="https://www.youtube.com/channel/UCOu3XN2DB6lFEQTIeo41Nxw" id="yt" title="youtube" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>                             
+                </div>
+
+                <h5 id="social_title">Hytta SRL</h5>
+                <div class="footer__container__sect--miniMenu">
+                    <a href="">Attività</a>
+                    <a href="">Noleggio</a>
+                    <a href="">Chi siamo</a>
+                    <a href="">Diventa partner</a>
+                    <a href="">Accedi</a>
+                </div>
+    
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
