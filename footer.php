@@ -24,10 +24,10 @@
 
                 <h5 id="social_title">Hytta SRL</h5>
                 <div class="footer__container__sect--miniMenu">
-                    <a href="">Attività</a>
-                    <a href="">Noleggio</a>
-                    <a href="">Chi siamo</a>
-                    <a href="">Diventa partner</a>
+                    <a href="<?php echo site_url('/attività')?>">Attività</a>
+                    <a href="<?php echo site_url('/noleggio')?>">Noleggio</a>
+                    <a href="<?php echo site_url('/chi-siamo')?>">Chi siamo</a>
+                    <a href="<?php echo site_url('/diventa-partner')?>">Diventa partner</a>
                     <a href="">Accedi</a>
                 </div>
     

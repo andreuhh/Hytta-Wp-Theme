@@ -1,7 +1,17 @@
 <?php
-/** AGGIORNA IN AUTOMATICO IL NUMERO DELLA VERSIONE */
-define( 'WPH_VERSION', ( WPH_IS_STAGING ? time() : '1.0.0' ) );
-define( 'WPH_IS_ADMIN', current_user_can( 'edit_others_posts' ) );
+/**
+ * functions.php is the file where you can control all the logics behind your website
+ * You can even change how WordPress works because this file is called very early in the process of building the pages
+ *
+ * @since 1.0.0
+ * @version 1.0.0
+ * 
+ * @see  https://developer.wordpress.org/reference/functions/add_action/
+ * @see  https://developer.wordpress.org/reference/functions/add_theme_support/
+ * @see  https://developer.wordpress.org/block-editor/developers/themes/theme-support/
+ * @see  https://developer.wordpress.org/reference/functions/wp_enqueue_style/
+ * @see  https://developer.wordpress.org/reference/functions/remove_action/
+ */
 
 /**
  * This function takes care of all the setup and functionalities that should be added to your theme
@@ -20,7 +30,7 @@ function wph_setup() {
 	add_theme_support( 'responsive-embeds' ); /** video responsive */
 
 }
-add_action( 'after_setup_theme', 'wph_setup' );
+add_action( 'after_setup_theme', 'wph_setup', 0 );
 
 
 // styles and scripts function
@@ -36,3 +46,12 @@ function hytta_files(){
     wp_enqueue_style( 'hytta-style', get_stylesheet_uri(), array(), filemtime(get_template_directory() . '/style.css'), 'all' );
 }
 add_action('wp_enqueue_scripts', 'hytta_files');
+
+
+/**
+ * Remove the default emoji styles slowing down the website
+ *
+ * @see  https://developer.wordpress.org/reference/functions/remove_action/
+ */
+remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+remove_action( 'wp_print_styles', 'print_emoji_styles' );

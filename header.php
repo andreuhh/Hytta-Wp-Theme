@@ -17,20 +17,20 @@
 <body <?php body_class(); ?>>
     <div class="header">
         <div class="header__logo">
-            <a href="index.html">
+            <a href="<?php echo site_url('/')?>">
                 <img src="img/logoprova.png" alt="">
             </a>        
         </div>
         <ul class="header__menu">
-            <li><a href="attivita.html">Attività</a></li>
-            <li><a href="noleggio.html">Noleggio</a></li>
-            <li><a href="chiSiamo.html">Chi siamo</a></li>
-            <li class="only-mobile"><a href="partner.html">Diventa Partner</a></li>
+            <li><a href="<?php echo site_url('/attività') ?>">Attività</a></li>
+            <li><a href="<?php echo site_url('/noleggio') ?>">Noleggio</a></li>
+            <li><a href="<?php echo site_url('/chi-siamo') ?>">Chi siamo</a></li>
+            <li class="only-mobile"><a href="<?php echo site_url('/diventa-partner') ?>">Diventa Partner</a></li>
             <li class="only-mobile"><a href="" class="orange">Accedi</a></li>
         </ul>
         <div class="header__cta">
             <a href="" class="button">Accedi</a>
-            <a href="partner.html">Diventa Partner</a>
+            <a href="<?php echo site_url('/diventa-partner') ?>">Diventa Partner</a>
         </div>
         <div class="hamburger">
             <span></span>
