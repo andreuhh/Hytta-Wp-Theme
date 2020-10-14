@@ -25,12 +25,12 @@
             <li><a href="<?php echo site_url('/attività') ?>">Attività</a></li>
             <li><a href="<?php echo site_url('/noleggio') ?>">Noleggio</a></li>
             <li><a href="<?php echo site_url('/chi-siamo') ?>">Chi siamo</a></li>
-            <li class="only-mobile"><a href="<?php echo site_url('/diventa-partner') ?>">Diventa Partner</a></li>
+            <li><a href="<?php echo site_url('/diventa-partner') ?>">Diventa Partner</a></li>
             <li class="only-mobile"><a href="" class="orange">Accedi</a></li>
         </ul>
         <div class="header__cta">
             <a href="" class="button">Accedi</a>
-            <a href="<?php echo site_url('/diventa-partner') ?>">Diventa Partner</a>
+            <a href="<?php echo site_url('/carrello') ?>">Carrello</a>
         </div>
         <div class="hamburger">
             <span></span>

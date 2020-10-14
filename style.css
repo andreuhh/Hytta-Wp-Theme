@@ -1282,3 +1282,16 @@ p.col50--smallText{ padding: 2% 20% 20% 30%; font-size: 1.2rem }
         padding: 15px 20px;
       }
    }
+
+
+   /* woocommerce general */
+   /* General */
+
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
