@@ -1,44 +1,4 @@
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hytta Outdoor</title>
-    <!-- Reset css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
-    <!-- Style css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
-</head>
-<body>
-    <div class="header">
-        <div class="header__logo">
-            <a href="index.html">
-                <img src="img/logoprova.png" alt="">
-            </a>        
-        </div>
-        <ul class="header__menu">
-            <li><a href="attivita.html">Attività</a></li>
-            <li><a href="noleggio.html">Noleggio</a></li>
-            <li><a href="chiSiamo.html">Chi siamo</a></li>
-            <li class="only-mobile"><a href="partner.html">Diventa Partner</a></li>
-            <li class="only-mobile"><a href="" class="orange">Accedi</a></li>
-        </ul>
-        <div class="header__cta">
-            <a href="" class="button">Accedi</a>
-            <a href="partner.html">Diventa Partner</a>
-        </div>
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-
+<?php get_header(); ?>
     <div class="hero">
         <div class="hero__content">
             <h1>Trova la tua prossima attività outdoor</h1>
@@ -371,45 +331,4 @@
     </section>
 
     </main>
-
-    <footer>
-        <div class="footer__container">
-            <div class="footer__container__sect">
-                <p>Registrati per rimanere sempre aggiornato sulle nostre  attività</p>
-                <div class="footer__container__dx--form">
-                    <input type="text" class="search-small" placeholder="E-mail">
-                    <button class="search-btn-small" type="button">Registrati</button>
-                </div>
-            </div>
-
-            <div class="footer__container__sect dx">
-                <h5>Seguici sui social</h5>
-                <div class="menu_social">                    
-                    <a href="https://www.facebook.com/mohole/" title="facebook" target="_blank">
-                        <i class="fab fa-facebook-square"></i>
-                    </a>
-                    <a href="https://www.instagram.com/scuolamohole/?hl=it"  title="instagram" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>                        
-                    <a href="https://www.youtube.com/channel/UCOu3XN2DB6lFEQTIeo41Nxw" id="yt" title="youtube" target="_blank">
-                        <i class="fab fa-youtube"></i>
-                    </a>                             
-                </div>
-
-                <h5 id="social_title">Hytta SRL</h5>
-                <div class="footer__container__sect--miniMenu">
-                    <a href="">Attività</a>
-                    <a href="">Noleggio</a>
-                    <a href="">Chi siamo</a>
-                    <a href="">Diventa partner</a>
-                    <a href="">Accedi</a>
-                </div>
-    
-            </div>
-            
-        </div>
-    </footer>
-
-    <script src="js/app.js"></script>
-</body>
-</html>
+<?php get_footer(); ?>
