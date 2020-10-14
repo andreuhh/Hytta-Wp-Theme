@@ -7,12 +7,11 @@
     <!-- Reset css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
     <!-- Style css -->
-    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="style.css">-->
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">-->
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons">-->
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
