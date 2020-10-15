@@ -89,7 +89,7 @@
                 </div>
                 <div class="col50 col50--firstMob">
                     <div class="col50__imgVert">
-                        <img src="img/bmx-coach-last.jpg" alt="bmx coach picture">
+                        <img src="<?php echo get_theme_file_uri('/img/bmx-coach-last.jpg')?>" alt="bmx coach picture">
                     </div>
                 </div>
             </div>

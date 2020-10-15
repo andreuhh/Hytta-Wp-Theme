@@ -18,7 +18,7 @@
     <div class="header">
         <div class="header__logo">
             <a href="<?php echo site_url('/')?>">
-                <img src="img/logoprova.png" alt="">
+                <img src="<?php echo get_theme_file_uri('/img/logoprova.png')?>" alt="logo hytta">
             </a>        
         </div>
         <ul class="header__menu">

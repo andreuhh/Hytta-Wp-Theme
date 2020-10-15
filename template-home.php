@@ -49,16 +49,16 @@ get_header();
         <h2>I servizi</h2>
         <div class="main__service">
             <div class="main__service__items">
-                <img src="img/service1.png" width="70px" height="70px" alt="computer icon">
+                <img src="<?php echo get_theme_file_uri('/img/service1.png')?>" width="70px" height="70px" alt="computer icon">
                 <p>Prenotazione Online di attività outdoor.</p>
             </div>
             <div class="main__service__items">
-                <img src="img/service2.png" width="70px" height="70px" alt="rental icon">
+                <img src="<?php echo get_theme_file_uri('/img/service2.png')?>" width="70px" height="70px" alt="rental icon">
                 <p>Noleggio attrezzatura sportiva
                     da negozi o privati.</p>
             </div>
             <div class="main__service__items">
-                <img src="img/service3.png" width="70px" height="70px" alt="money icon">
+                <img src="<?php echo get_theme_file_uri('/img/service3.png')?>" width="70px" height="70px" alt="money icon">
                 <p>Possibilità di guadagno noleggiando la propria attrezzatura ad altri utenti del sito.</p>
             </div>
         </div>
@@ -263,21 +263,21 @@ get_header();
                 </div>
             </div>
             <div class="containerGallery__item2" alt="man in a kayak">
-                <h5>Avventura in kajak in Valsella</h5>
+                <h5>Kayak tour sul Lago di Castel Gandolfo</h5>
                 <div class="containerGallery__price">
-                    <p>da <span>50€</span></p>
+                    <p>da <span>43€</span></p>
                 </div>
             </div>
             <div class="containerGallery__item3" alt="skateboard class">
                 <h5>Lezione di skate a Milano</h5>
                 <div class="containerGallery__price">
-                    <p>da <span>50€</span></p>
+                    <p>da <span>27€</span></p>
                 </div>
             </div>
             <div class="containerGallery__item4" alt="snowbike picture">
                 <h5>Corso di SnowBike in Trentino</h5>
                 <div class="containerGallery__price">
-                    <p>da <span>50€</span></p>
+                    <p>da <span>39€</span></p>
                 </div>
             </div>
         </div>

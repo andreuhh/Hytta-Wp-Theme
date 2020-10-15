@@ -59,16 +59,16 @@
         <h2>I servizi</h2>
         <div class="main__service">
             <div class="main__service__items">
-                <img src="img/service1.png" width="70px" height="70px" alt="">
+                <img src="<?php echo get_theme_file_uri('/img/service1.png')?>" width="70px" height="70px" alt="">
                 <p>Prenotazione Online di attività outdoor.</p>
             </div>
             <div class="main__service__items">
-                <img src="img/service2.png" width="70px" height="70px" alt="">
+                <img src="<?php echo get_theme_file_uri('/img/service2.png')?>" width="70px" height="70px" alt="">
                 <p>Noleggio attrezzatura sportiva
                     da negozi o privati.</p>
             </div>
             <div class="main__service__items">
-                <img src="img/service3.png" width="70px" height="70px" alt="">
+                <img src="<?php echo get_theme_file_uri('/img/service3.png')?>" width="70px" height="70px" alt="">
                 <p>Possibilità di guadagno noleggiando la propria attrezzatura ad altri utenti del sito.</p>
             </div>
         </div>
