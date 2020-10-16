@@ -74,7 +74,7 @@ function hytta_scripts(){
 	wp_enqueue_script( 'accordion', get_theme_file_uri('/inc/js/accordion.js'), NULL, '1.0', false);
 	wp_enqueue_script( 'movetomin', get_theme_file_uri('/inc/js/moveTo.min.js'), NULL, '1.0', false);
 	wp_enqueue_script( 'slider', get_theme_file_uri('/inc/js/slider.js'), NULL, '1.0', false);
-	wp_enqueue_script( 'form', get_theme_file_uri('/inc/js/form.js'), NULL, '1.1', false);
+	wp_enqueue_script( 'form', get_theme_file_uri('/inc/js/form.js'), NULL, '1.2', false);
 }
 add_action('wp_enqueue_scripts', 'hytta_scripts');
 

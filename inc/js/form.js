@@ -68,8 +68,8 @@ document.addEventListener("DOMContentLoaded", evt => {
     }
 
     // Event listeners
-    form.addEventListener('click', function (e) {
-        //e.preventDefault();
+    form.addEventListener('submit', function (e) {
+        e.preventDefault();
 
         checkRequired([username, email, password, password2]);
         checkLength(username, 3, 15);

@@ -1301,9 +1301,37 @@ p.col50--smallText{ padding: 2% 20% 20% 30%; font-size: 1.2rem }
 #primary{margin: 7% 3% 0 3%; order: 0;}
 #primary h2{text-align: left; padding-top: 50px;}
 #sidebar{ text-align: center;; margin-top: 15%;}
+h2.woocommerce-loop-product__title{padding: 0 !important; }
+span.price{
+    padding-top: 8%; 
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    color: var(--primary-color) !important;
+}
 
+.button.product_type_simple.add_to_cart_button.ajax_add_to_cart{
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.button.product_type_simple.add_to_cart_button.ajax_add_to_cart:hover{
+    opacity: .9;
+}
+
+li.product.type-product{
+    border: 1PX solid gray;
+    min-height: 370px;
+}
+
+h2.woocommerce-loop-product__title{padding: 0 10px !important; text-align: center;}
+
+
+/* -------- SINGLE PRODUCT -----------*/
 /* show single product image */
 .woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images {
     opacity: 1 !important;
 }
-
