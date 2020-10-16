@@ -5,6 +5,7 @@
  *
  * @since 1.0.0
  * @version 1.0.0
+ * @author Guffi Andrea
  * 
  * @see  https://developer.wordpress.org/reference/functions/add_action/
  * @see  https://developer.wordpress.org/reference/functions/add_theme_support/
@@ -13,6 +14,30 @@
  * @see  https://developer.wordpress.org/reference/functions/remove_action/
  */
 
+
+function woosupport(){
+	//woocommerce support
+	add_theme_support( 'woocommerce', array(
+		'thumbnail_image_width' => 400,
+		'single_image_width'	=> 400,
+		'product_grid' 			=> array(
+			'default_rows'    => 10,
+			'min_rows'        => 5,
+			'max_rows'        => 10,
+			'default_columns' => 2,
+			'min_columns'     => 2,
+			'max_columns'     => 2,				
+		)
+	) );
+	add_theme_support( 'wc-product-gallery-zoom' );
+	add_theme_support( 'wc-product-gallery-lightbox' );
+	add_theme_support( 'wc-product-gallery-slider' );
+
+	if ( ! isset( $content_width ) ) {
+		$content_width = 600;
+	}
+}
+add_action( 'after_setup_theme', 'woosupport');
 /**
  * This function takes care of all the setup and functionalities that should be added to your theme
  */
@@ -23,32 +48,12 @@ function wph_setup() {
 	 * @see  https://developer.wordpress.org/reference/functions/add_theme_support/
 	 * @see  https://developer.wordpress.org/block-editor/developers/themes/theme-support/
 	 */
-    add_theme_support( 'post-thumbnails' );
+    //add_theme_support( 'post-thumbnails' );
 	add_theme_support( 'title-tag' );
 	add_theme_support( 'wp-block-styles' ); /** carica stili dei blocchi di default */
 	add_theme_support( 'align-wide' ); /* allineamento a dx di Gutemberg */
 	add_theme_support( 'responsive-embeds' ); /** video responsive */
-
-	// add compatibility to woocommerce 
-    add_theme_support('woocommerce', array(
-        'thumbnail_image_width' => 255,
-        'single_image_width' => 255,
-        'product_grid' => array(
-            'default_rows'    => 10,
-            'min_rows'        => 5,
-            'max-rows'        => 10,
-            'default_columns' => 4,
-            'min_columns'     => 1,
-            'max_columns'     => 4
-        )
-	)); 
-	add_theme_support('wc-product-gallery-zoom');
-    add_theme_support('wc-product-gallery-lightbox');
-	add_theme_support('wc-product-gallery-slider');
 	
-	if ( ! isset( $content_width ) ) {
-        $content_width = 600;
-    }
 }
 add_action( 'after_setup_theme', 'wph_setup', 0 );
 

@@ -1284,8 +1284,8 @@ p.col50--smallText{ padding: 2% 20% 20% 30%; font-size: 1.2rem }
    }
 
 
-   /* woocommerce general */
-   /* General */
+/* woocommerce general */
+/* General */
 
 .size-auto, 
 .size-full,
@@ -1294,4 +1294,9 @@ p.col50--smallText{ padding: 2% 20% 20% 30%; font-size: 1.2rem }
 .size-thumbnail {
     max-width: 100%;
     height: auto;
+}
+
+/* show single product image */
+.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images {
+    opacity: 1 !important;
 }
