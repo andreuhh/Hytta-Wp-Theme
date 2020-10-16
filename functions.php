@@ -18,15 +18,15 @@
 function woosupport(){
 	//woocommerce support
 	add_theme_support( 'woocommerce', array(
-		'thumbnail_image_width' => 400,
-		'single_image_width'	=> 400,
+		'thumbnail_image_width' => 700,
+		'single_image_width'	=> 700,
 		'product_grid' 			=> array(
 			'default_rows'    => 10,
 			'min_rows'        => 5,
 			'max_rows'        => 10,
-			'default_columns' => 2,
-			'min_columns'     => 2,
-			'max_columns'     => 2,				
+			'default_columns' => 4,
+			'min_columns'     => 4,
+			'max_columns'     => 4,				
 		)
 	) );
 	add_theme_support( 'wc-product-gallery-zoom' );

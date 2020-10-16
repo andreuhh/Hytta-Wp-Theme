@@ -1296,7 +1296,14 @@ p.col50--smallText{ padding: 2% 20% 20% 30%; font-size: 1.2rem }
     height: auto;
 }
 
+/* shop page*/
+
+#primary{margin: 7% 3% 0 3%; order: 0;}
+#primary h2{text-align: left; padding-top: 50px;}
+#sidebar{ text-align: center;; margin-top: 15%;}
+
 /* show single product image */
 .woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images {
     opacity: 1 !important;
 }
+
