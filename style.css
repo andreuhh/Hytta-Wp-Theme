@@ -64,13 +64,14 @@ button{outline: none; cursor: pointer;}
 /* aggiungere glogal style per il testo */
 
 .button{
-    padding: 10px 20px ; 
-    border-radius: 50px; 
-    background: var(--primary-color); 
-    font-weight: 500; 
-    color: var(--secondary-color);  
+    padding: 10px 20px !important; 
+    border-radius: 50px !important; 
+    background: var(--primary-color) !important; 
+    font-weight: 500 !important; 
+    color: var(--secondary-color) !important;  
 
 }
+.button:hover{opacity: .9 !important;}
 
 
 /*---------------------Header--------------------------------------*/
@@ -1334,4 +1335,11 @@ h2.woocommerce-loop-product__title{padding: 0 10px !important; text-align: cente
 /* show single product image */
 .woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images {
     opacity: 1 !important;
+}
+
+h1.product_title.entry-title{text-align: left; padding-bottom: 7% !important;}
+form.cart{ 
+    display:flex;
+    justify-content: center !important;
+    margin: 5% 0 !important;
 }
