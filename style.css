@@ -1330,6 +1330,7 @@ li.product.type-product{
 
 h2.woocommerce-loop-product__title{padding: 0 10px !important; text-align: center;}
 
+.star-rating{margin: 10px !important;}
 
 /* -------- SINGLE PRODUCT -----------*/
 /* show single product image */
@@ -1341,5 +1342,42 @@ h1.product_title.entry-title{text-align: left; padding-bottom: 7% !important;}
 form.cart{ 
     display:flex;
     justify-content: center !important;
+    align-items: center;
     margin: 5% 0 !important;
+}
+
+span.woocommerce-Price-amount.amount{
+    color: black; 
+    font-size: 1.6rem;
+}
+
+#submit{
+    background: var(--primary-color) !important;
+    color: #fff !important;
+    border-radius: 50px !important;
+}
+
+span#reply-title{
+    text-align: left !important; 
+    margin-bottom: 45px !important;
+}
+
+.pagenav,.categories{display: none;}
+
+.woocommerce-cart h2,
+.woocommerce-checkout h2{margin-top: 50px !important;}
+
+/* PAYMENT PAGE */
+.woocommerce-checkout input{ 
+    border: 1px solid grey;
+    height: 35px; 
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.woocommerce-checkout input:focus{border: 1px solid var(--primary-color);}
+
+#billing_country,#billing_state{
+    padding: 5px 20px;
+    margin-bottom: 20px;
 }
