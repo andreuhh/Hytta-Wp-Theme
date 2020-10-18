@@ -29,8 +29,12 @@
             <li class="only-mobile"><a href="" class="orange">Accedi</a></li>
         </ul>
         <div class="header__cta">
-            <a href="" class="button">Accedi</a>
-            <a href="<?php echo site_url('/carrello') ?>">Carrello</a>
+            <a href="<?php echo esc_url( get_permalink( get_option( 'woocommerce_myaccount_page_id' ) ) ) ?>" class="button">Accedi</a>
+            <div class="cart">
+                <a href="<?php echo wc_get_cart_url(); ?>"><span class="cart-icon"></span></a>
+                <span class="items"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+            </div>
+            
         </div>
         <div class="hamburger">
             <span></span>
