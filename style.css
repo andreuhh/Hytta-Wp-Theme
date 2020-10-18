@@ -1412,17 +1412,33 @@ form.search-form{
     padding-left: 20px !important;
 }
 
-/* PAYMENT PAGE */
-.woocommerce-checkout input{ 
+/* PAYMENT PAGE + REGISTRATION */
+.woocommerce-checkout input,
+.woocommerce-Input.woocommerce-Input--text.input-text,
+#account_email,#password_current, #password_1,#password_2{ 
     border: 1px solid grey;
     height: 35px; 
     padding: 5px 20px;
     border-radius: 20px;
     margin-bottom: 20px;
 }
-.woocommerce-checkout input:focus{border: 1px solid var(--primary-color);}
+.woocommerce-checkout input:focus,
+.woocommerce-Input.woocommerce-Input--text.input-text:focus,
+#account_email:focus,#password_current:focus, #password_1,#password_2:focus{border: 1px solid var(--primary-color);}
+
+.woocommerce-MyAccount-navigation li{padding: 10px 0;}
+.woocommerce-MyAccount-navigation-link a:hover{color: var(--primary-color);}
 
 #billing_country,#billing_state{
     padding: 5px 20px;
     margin-bottom: 20px;
 }
+
+
+/*  REGISTRATION */
+.woocommerce-account{margin-top: 5%;}
+.woocommerce-MyAccount-content,
+.woocommerce-MyAccount-navigation{text-align: left;}
+
+
+
