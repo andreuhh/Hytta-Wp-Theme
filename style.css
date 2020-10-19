@@ -1434,6 +1434,8 @@ form.search-form{
     margin-bottom: 20px;
 }
 
+#sidebar h2, #sidebar a{display: none;}
+
 
 /*  REGISTRATION */
 .woocommerce-account{margin-top: 5%;}

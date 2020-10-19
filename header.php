@@ -22,7 +22,7 @@
             </a>        
         </div>
         <ul class="header__menu">
-            <li><a href="<?php echo site_url('/attività') ?>">Attività</a></li>
+            <li><a href="<?php echo site_url('/attivita') ?>">Attività</a></li>
             <li><a href="<?php echo site_url('/noleggio') ?>">Noleggio</a></li>
             <li><a href="<?php echo site_url('/chi-siamo') ?>">Chi siamo</a></li>
             <li><a href="<?php echo site_url('/diventa-partner') ?>">Diventa Partner</a></li>
