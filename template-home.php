@@ -137,7 +137,7 @@ get_header();
         <div class="main__carddiv">
             <h2>Attività outdoor in evidenza</h2>
             <div class="container">                             
-                <?php echo do_shortcode('[products limit="4" columns="4" orderby="popularity" category="attività"]' ); ?>    
+                <?php echo do_shortcode('[products limit="4" columns="4" orderby="rating" category="attività"]' ); ?>    
             </div>  
             
             <a href="<?php echo site_url('/attivita') ?>"><button class="btn-secondary" type="button">Vedi altre</button></a>
@@ -161,7 +161,7 @@ get_header();
                     <div class="registerBlockText">
                     <h3>Pubblica le tue attività</h3>
                     <p>Pubblica le tue attività e trova nuovi fantastici clienti</p>
-                    <a href="partner.html">
+                    <a href="<?php echo site_url('/diventa-partner') ?>">
                         <button class="btn-secondary-black" type="button">Diventa partner</button>
                     </a>  
                     </div>
