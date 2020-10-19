@@ -186,7 +186,7 @@ get_header();
 
             <div class="containerGallery__item2" alt="man in a kayak">
                 <a href="<?php echo site_url('/') ?>"> 
-                    <h5>Kayak tour sul Lago di Castel Gandolfo</h5>
+                    <h5>Discesa in packraft sul fiume Serchio</h5>
                 </a>
                 <div class="containerGallery__price">
                     <p>da <span>43€</span></p>
