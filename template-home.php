@@ -172,13 +172,14 @@ get_header();
 
     <section class="galleryBlock">
         <h2>Le Attività preferite dai nostri utenti</h2>
-        <div class="containerGallery">
-            <div class="containerGallery__item1" alt="canyoning activity">
-                <h5>Canyoning in Valle d'Aosta</h5>
-                <div class="containerGallery__price">
-                    <p>da <span>50€</span></p>
+        <div class="containerGallery">       
+                <div class="containerGallery__item1" alt="canyoning activity">
+                    <h5>Canyoning in Valle d'Aosta</h5>
+                    <div class="containerGallery__price">
+                        <p>da <span>50€</span></p>
+                    </div>
                 </div>
-            </div>
+            
             <div class="containerGallery__item2" alt="man in a kayak">
                 <h5>Kayak tour sul Lago di Castel Gandolfo</h5>
                 <div class="containerGallery__price">

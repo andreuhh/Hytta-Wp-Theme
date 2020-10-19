@@ -78,15 +78,16 @@
             <div class="registerBlock__container registerBlock__container--firstBlock">
                 <div class="registerBlock__container__item1">
                     <div class="registerBlockText">
-                    <h3>Pubblica le tue attività</h3>
-                    <p>Pubblica le tue attività e trova nuovi fantastici clienti</p>
-                    <button class="btn-secondary-black" type="button">Diventa partner</button>
+                        <h3>Pubblica le tue attività</h3>
+                        <p>Pubblica le tue attività e trova nuovi fantastici clienti</p>
+                    <a href="<?php echo site_url('/diventa-partner') ?>">
+                        <button class="btn-secondary-black" type="button">Diventa partner</button>
+                    </a>
                     </div>
                 </div>
                 
-                <a href="partner.html">
+                
                     <div class="registerBlock__container__item2"></div>
-                </a>
                 
             </div>
         </section>
@@ -97,9 +98,11 @@
             <div class="registerBlock__container__item2"></div>
             <div class="registerBlock__container__item1">
                 <div class="registerBlockText">
-                <h3>Sei un avventurriero?</h3>
-                <p>Unisciti alla community e inizia la tua prossima avventura.</p>
-                <button class="btn-secondary-black" type="button">Registrati</button>
+                    <h3>Sei un avventurriero?</h3>
+                    <p>Unisciti alla community e inizia la tua prossima avventura.</p>
+                    <a href="<?php echo site_url('/mio-account') ?>">
+                        <button class="btn-secondary-black" type="button">Registrati</button>
+                    </a>
                 </div>
             </div>
         </div>
