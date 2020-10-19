@@ -1388,6 +1388,8 @@ span#reply-title{
 .woocommerce-cart h2,
 .woocommerce-checkout h2{margin-top: 50px !important;}
 
+.product_meta{display: flex; justify-content: space-between; padding-top: 20px;}
+
 /* SEARCH FORM */
 form.search-form{
     width: 40%; margin: 0 auto; 
@@ -1442,6 +1444,7 @@ form.search-form{
 .woocommerce-MyAccount-content,
 .woocommerce-MyAccount-navigation{text-align: left;}
 
-
+/* 404 PAGE */
 .page404{margin: 20% 0; text-align: center;}
 
+h2.woocommerce-loop-product__title{text-align: left;}
