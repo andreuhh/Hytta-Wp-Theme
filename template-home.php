@@ -173,27 +173,37 @@ get_header();
     <section class="galleryBlock">
         <h2>Le Attività preferite dai nostri utenti</h2>
         <div class="containerGallery">       
+            
                 <div class="containerGallery__item1" alt="canyoning activity">
+                    <a href="<?php echo site_url('/prodotto/canyoning-in-valsella') ?>"> 
                     <h5>Canyoning in Valle d'Aosta</h5>
+                    </a>
                     <div class="containerGallery__price">
                         <p>da <span>50€</span></p>
                     </div>
                 </div>
             
+
             <div class="containerGallery__item2" alt="man in a kayak">
-                <h5>Kayak tour sul Lago di Castel Gandolfo</h5>
+                <a href="<?php echo site_url('/') ?>"> 
+                    <h5>Kayak tour sul Lago di Castel Gandolfo</h5>
+                </a>
                 <div class="containerGallery__price">
                     <p>da <span>43€</span></p>
                 </div>
             </div>
             <div class="containerGallery__item3" alt="skateboard class">
-                <h5>Lezione di skate a Milano</h5>
+                <a href="<?php echo site_url('/prodotto/corso-di-skate-a-milano') ?>">
+                    <h5>Lezione di skate a Milano</h5>
+                </a>
                 <div class="containerGallery__price">
                     <p>da <span>27€</span></p>
                 </div>
             </div>
             <div class="containerGallery__item4" alt="snowbike picture">
-                <h5>Corso di SnowBike in Trentino</h5>
+                <a href="<?php echo site_url('prodotto/escursione-in-snowbike-in-trentino') ?>">
+                    <h5>Corso di SnowBike in Trentino</h5>
+                </a>
                 <div class="containerGallery__price">
                     <p>da <span>39€</span></p>
                 </div>

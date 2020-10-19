@@ -1399,6 +1399,14 @@ form.search-form{
     align-items: center;
     border-radius: 50px;
 }
+
+@media (max-width: 768px){
+    form.search-form{
+        width: 100% !important;
+        margin-bottom: 40px !important;
+    }
+  }
+
 .search-form button{
     background-image: url('img/search.svg');
     height: 23px;
@@ -1451,3 +1459,6 @@ h2.woocommerce-loop-product__title{text-align: left;}
 
 /* SEARCH BAR IN ACTIVITY / RENTAL PAGE */
 .search-template{margin: 3% auto !important;}
+
+
+
