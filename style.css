@@ -1426,7 +1426,7 @@ form.search-form{
 }
 .woocommerce-checkout input:focus,
 .woocommerce-Input.woocommerce-Input--text.input-text:focus,
-#account_email:focus,#password_current:focus, #password_1,#password_2:focus{border: 1px solid var(--primary-color);}
+#account_email:focus,#password_current:focus, #password_1:focus,#password_2:focus{border: 1px solid var(--primary-color);}
 
 .woocommerce-MyAccount-navigation li{padding: 10px 0;}
 .woocommerce-MyAccount-navigation-link a:hover{color: var(--primary-color);}
@@ -1449,6 +1449,5 @@ form.search-form{
 
 h2.woocommerce-loop-product__title{text-align: left;}
 
-
-
+/* SEARCH BAR IN ACTIVITY / RENTAL PAGE */
 .search-template{margin: 3% auto !important;}

@@ -26,7 +26,8 @@
             <li><a href="<?php echo site_url('/noleggio') ?>">Noleggio</a></li>
             <li><a href="<?php echo site_url('/chi-siamo') ?>">Chi siamo</a></li>
             <li><a href="<?php echo site_url('/diventa-partner') ?>">Diventa Partner</a></li>
-            <li class="only-mobile"><a href="" class="orange">Accedi</a></li>
+            <li class="only-mobile"><a href="<?php echo esc_url( get_permalink( get_option( 'woocommerce_myaccount_page_id' ) ) ) ?>" class="orange">Accedi</a></li>
+            <li class="only-mobile"><a href="<?php echo wc_get_cart_url(); ?>">Carrello</a></li>
         </ul>
         <div class="header__cta">
             <a href="<?php echo esc_url( get_permalink( get_option( 'woocommerce_myaccount_page_id' ) ) ) ?>" class="button">Accedi</a>
