@@ -84,18 +84,15 @@
                         <button class="btn-secondary-black" type="button">Diventa partner</button>
                     </a>
                     </div>
-                </div>
-                
-                
+                </div>               
                     <div class="registerBlock__container__item2"></div>
-                
             </div>
         </section>
 
     
     <section class="registerBlock registerBlock--secondBlock">
         <div class="registerBlock__container">
-            <div class="registerBlock__container__item2"></div>
+            <div class="registerBlock__container__item3"></div>
             <div class="registerBlock__container__item1">
                 <div class="registerBlockText">
                     <h3>Sei un avventurriero?</h3>

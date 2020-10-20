@@ -512,6 +512,8 @@ button.btn-secondary{
     cursor: pointer;
 }
 
+button.btn-secondary:hover{opacity: 0.9;}
+
 /* REGISTER BLOCKS */
 section.registerBlock{
     padding: 0 30px;
@@ -538,6 +540,15 @@ section.registerBlock{
 
 .registerBlock__container__item2{
     background:url(img/bivacco.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    min-height: 330px; 
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+}
+
+.registerBlock__container__item3{
+    background:url(img/supPortofino-small.jpg) no-repeat center center;
     background-size: cover;
     background-position: center;
     min-height: 330px; 
@@ -1460,6 +1471,16 @@ h2.woocommerce-loop-product__title{text-align: left;}
 
 /* SEARCH BAR IN ACTIVITY / RENTAL PAGE */
 .search-template{margin: 3% auto !important;}
+
+/* REVIEW NO LOGIN*/
+input#author,input#email{
+    border: 1px solid grey;
+    height: 35px; 
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: 15px;
+    outline: none;
+}
 
 
 
