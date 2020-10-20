@@ -135,7 +135,7 @@
               </div>
               <div class="form-control">
                 <label for="email">Email</label>
-                <input name="email" type="text" id="email" placeholder="Inserisci email" />
+                <input name="email" type="text" id="emailForm" placeholder="Inserisci email" />
                 <small>Error message</small>
               </div>
               <div class="form-control">

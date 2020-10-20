@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", evt => {
 
     const form = document.getElementById('form');
     const username = document.getElementById('username');
-    const email = document.getElementById('email');
+    const email = document.getElementById('emailForm');
     const password = document.getElementById('password');
     const password2 = document.getElementById('password2');
 

@@ -73,6 +73,21 @@
             </div>
         </div>
 
+        <section class="registerBlock registerBlock--secondBlock">
+        <div class="registerBlock__container">
+            <div class="registerBlock__container__item3"></div>
+            <div class="registerBlock__container__item1">
+                <div class="registerBlockText">
+                    <h3>Sei un avventurriero?</h3>
+                    <p>Unisciti alla community e inizia la tua prossima avventura.</p>
+                    <a href="<?php echo site_url('/mio-account') ?>">
+                        <button class="btn-secondary-black" type="button">Registrati</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
    
         <section class="registerBlock registerBlock--secondBlock">
             <div class="registerBlock__container registerBlock__container--firstBlock">
@@ -89,23 +104,8 @@
             </div>
         </section>
 
-    
-    <section class="registerBlock registerBlock--secondBlock">
-        <div class="registerBlock__container">
-            <div class="registerBlock__container__item3"></div>
-            <div class="registerBlock__container__item1">
-                <div class="registerBlockText">
-                    <h3>Sei un avventurriero?</h3>
-                    <p>Unisciti alla community e inizia la tua prossima avventura.</p>
-                    <a href="<?php echo site_url('/mio-account') ?>">
-                        <button class="btn-secondary-black" type="button">Registrati</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-        
-    <section class="faq">
+
+        <section class="faq">
         <h2>FAQ</h2>
         <div class="accordion">
 
@@ -156,6 +156,6 @@
         </div>
     </section>
 
-    </main>
+</main>
 
 <?php get_footer()?>
