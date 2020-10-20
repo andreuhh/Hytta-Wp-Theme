@@ -574,11 +574,11 @@ button.btn-secondary-black{
     .registerBlock__container__item1{order: 1;}
     .registerBlock__container__item1{order: 2;}
     section.registerBlock{padding: 10px 0px;}
-
 }
 
 @media (max-width: 768px){
     .registerBlock__container{grid-template-columns: 1fr;}
+    .registerBlock__container__item3{margin-top: 10%;}
 }
 
 @media (max-width: 400px){
@@ -586,6 +586,7 @@ button.btn-secondary-black{
     /*.registerBlock__container__item2{display: none;}*/
     .registerBlockText p{font-size: 1rem; padding: 10px;}
     button.btn-secondary-black{margin-top: 10px;}
+    .registerBlock__container__item3{margin-top: 15%;}
 }
 
 /*------ GRID GALLERY --------*/

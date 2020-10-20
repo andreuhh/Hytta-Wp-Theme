@@ -16,13 +16,13 @@
             Due amici, una passione in comune e tanti tanti caffè: 
             è così che è nato Hytta, il marketplace di riferimento 
             per le esperienze outdoor. L’idea è semplice: permettere 
-            agli appassionati di prenotare le migliori attività offerte 
+            agli appassionati di attività Outdoor di prenotare le migliori esperienze offerte 
             dal territorio Italiano, in modo sicuro e intuitivo.
         </p> 
         <br>
         <p>
             Ce ne sono moltissime, nel nostro Paese, ma spesso accedervi è 
-            una corsa a ostacoli. Prima di Freedome, trovare l’esperienza 
+            una corsa a ostacoli. Prima di Hytta, trovare l’esperienza 
             giusta significava visitare decine di siti, inviare un’email 
             dietro l’altra, perdersi tra mille telefonate. 
             Abbiamo deciso di modernizzare l’intero processo, 
@@ -34,24 +34,18 @@
 
         <h2>La nostra Mission</h2>
         <p>
-            Due amici, una passione in comune e tanti tanti caffè: 
-            è così che è nato Hytta, il marketplace di riferimento 
-            per le esperienze outdoor. 
-            L’idea è semplice: permettere agli appassionati di 
-            prenotare le migliori attività offerte dal territorio Italiano, 
-            in modo sicuro e intuitivo.  
+        Che tu voglia partire per una destinazione lontana, 
+        divertirti vicino a casa o che tu abbia già organizzato la tua avventura, 
+        Hytta è il tuo punto di riferimento con la migliore offerta di viaggi avventura, 
+        esperienze outdoor giornaliere e il noleggio di attrezzatura sportiva outdoor.  
         </p>
 
         <p>
-            Ce ne sono moltissime, nel nostro Paese, ma spesso accedervi è 
-            una corsa a ostacoli. Prima di Freedome, trovare l’esperienza 
-            giusta significava visitare decine di siti, inviare un’email 
-            dietro l’altra, perdersi tra mille telefonate. 
-            Abbiamo deciso di modernizzare l’intero processo, 
-            creando un unico luogo dove confrontare, scegliere e 
-            prenotare le migliori attività outdoor. 
-            Se sei in cerca di adrenalina, avventura o relax, 
-            su Hytta ti troverai alla grande.
+        Lavoriamo con passione per offrirti la possibilità di arricchire 
+        te stesso vivendo un'espereinza autentica, a contatto con la natura, 
+        le persone e la cultura che incontri. Per questo selezioniamo i 
+        migliori partner locali che condividono con noi il desiderio di 
+        cambiamento, innovazione e responsabilità verso le persone e il mondo che ci circonda.
         </p>
 
         </div>
